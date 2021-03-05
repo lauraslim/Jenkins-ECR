@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM scratch
+FROM ubuntu:18.04 as base
 
 MAINTAINER laura
 
@@ -9,6 +9,4 @@ RUN echo 'Hello World' > /var/www/html/index.html
 
 EXPOSE 80
 
-ENTRYPOINT ["usr/sbin/apachectl"]
-
-CMD ["-D","FOREGROUND"]
+CMD ["APACHECTL","-D","FOREGROUND"]
