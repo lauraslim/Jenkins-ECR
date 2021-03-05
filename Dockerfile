@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM ubuntu:18.04-apache
+FROM ubuntu
 
 MAINTAINER laura
 
