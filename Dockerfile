@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM ubuntu
+FROM scratch
 
 MAINTAINER laura
 
