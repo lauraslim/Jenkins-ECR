@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FROM ubuntu
+FROM ubuntu:18.04
 
 MAINTAINER laura
 
